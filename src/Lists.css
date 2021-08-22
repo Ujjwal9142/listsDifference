@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
+
+.lists_main {
+  color: black;
+  font-family: "Nunito";
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  overflow-y: auto;
+}
+
+.show_lists,
+.show_differences {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main_header {
+  padding: 15px;
+}
+
+.add_list1 h5,
+.add_list2 h5 {
+  padding: 20px 15px;
+  font-size: 18px;
+}
+
+.add_list1 input,
+.add_list2 input {
+  height: 32px;
+  width: 200px;
+  min-width: 60px;
+}
+
+.add_list1 button,
+.add_list2 button {
+  margin-left: 30px;
+  border-radius: 15px;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Nunito";
+  color: white;
+}
+
+.add_list1 button {
+  background-color: #007bff;
+}
+
+.add_list2 button {
+  background-color: #28a745;
+}
+
+.add_list2 {
+  margin-top: 15px;
+}
+
+.initial_text {
+  padding: 30px 30px 40px;
+  font-size: 20px;
+}
+
+.show_lists {
+  margin-top: 30px;
+}
+
+.show_list1,
+.show_list2 {
+  font-size: 19px;
+}
+
+.compute_butn {
+  border-radius: 15px;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Nunito";
+  color: white;
+  background-color: #dc3545;
+  margin: 40px 10px 30px;
+}
+
+.show_onlyList1 h5,
+.show_onlyList2 h5,
+.show_commonList h5,
+.show_uniqueList h5 {
+  padding: 20px 15px;
+  font-size: 16px;
+}
